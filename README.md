@@ -12,7 +12,7 @@
 
 **Figure 1**: Given an image dataset $(x_i,y_i) \in \mathcal{X}$ with categorical class distribution $\mathcal{C}$, we first utilize a large pre-trained model to extract and store feature embeddings and corresponding labels $(f_i,y_i) \in \mathcal{F}$. These embeddings capture both local and contextual information while inherently reducing dimensionality. Subsequently, the embeddings are used during training of a Conditional Variational Autoencoder (CVAE) to capture the training distribution conditioned on the respective class labels $y_i$. Finally, we train a task-specific head while dynamically generating new synthetic feature vectors $a_j$ conditioned on class labels $\tilde y_j \sim C$ through CVAE's frozen decoder. This not only ensures data anonymity but also increases data diversity and model robustness.
 
-### 0. Preliminaries
+#### 0. Preliminaries
 
 ```
 conda env create -f environment.yaml
