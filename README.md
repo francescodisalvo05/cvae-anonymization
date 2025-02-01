@@ -99,11 +99,13 @@ python probing_noise_cvae.py --dataset [dataset] \
 If you find this work useful, please consider citing us:
 
 ```
-@article{disalvo2024privacy,
-  title={Privacy-preserving datasets by capturing feature distributions with Conditional VAEs},
-  author={Di Salvo, Francesco and David, Tafler and Doerrich, Sebastian and Ledig, Christian},
-  journal={arXiv preprint arXiv:2408.00639},
-  year={2024}
+@inproceedings{disalvo2024privacy,
+author    = {Francesco Di Salvo and David Tafler and Sebastian Doerrich and Christian Ledig},
+title     = {Privacy-preserving datasets by capturing feature distributions with Conditional VAEs},
+booktitle = {35th British Machine Vision Conference 2024, {BMVC} 2024, Glasgow, UK, November 25-28, 2024},
+publisher = {BMVA},
+year      = {2024},
+url       = {https://papers.bmvc2024.org/0145.pdf}
 }
 ```
 
